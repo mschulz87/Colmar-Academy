@@ -31,7 +31,11 @@ header .logo {
 .logo span {
   color: grey;
   height: 32px;
-  font-family: 'Fjalla One';
+  font-family: "Verdana", sans-serif;
+}
+
+ol, ul {
+  list-style: none;
 }
 
 header nav ul {
