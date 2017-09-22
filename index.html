@@ -2,6 +2,13 @@
 <html>
   <head>
     <title>Colmar Academy</title>
+    @font-face {
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6vk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/style.css">
   </head>
@@ -9,10 +16,13 @@
   <!-- Header -->
   <header>
     <div class="content">
-     <a href="index.html" class="desktop logo">"COLMARACADEMY"<img class="icon" src="./resources/capstone_colmar_assets/images/ic-logo.svg></a>
-       <nav class="desktop">
-         <ul>
-           <li>
+      <div class="logo">
+        <img src="./resources/capstone_colmar_assets/images/ic-logo.svg">
+        <span>COLMARACADEMY</span>
+      </div>
+      <nav class="desktop">
+        <ul>
+          <li>
              <a href="#">On campus</a>
           </li>
           <li>
@@ -58,7 +68,7 @@
     <div id="start-section" class="banner">
       <div id="banner-image">
         <img src="./resources/capstone_colmar_assets/images/banner.jpg"
-        <div class="content center">
+        <div class="content-center">
           <h1>Learn something new everyday</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
