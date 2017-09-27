@@ -54,3 +54,68 @@ nav a {
 header .mobile {
   display: none;
 }
+
+.main-content {
+  position: relative;
+  top: 7rem;
+}
+
+#start-section {
+  position: relative;
+  top: 5.3125rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 43.5rem;
+  background-color: grey;
+  }
+
+.image-container {
+  position: relative;
+  padding: 32px 24px;
+  justify-content: flex-start;
+  height: auto;
+  width: 60%;
+}
+
+.content-center {
+  position: relative;
+  justify-content: flex-end;
+}
+
+.content-center h1 {
+  font-size: 3rem;
+}
+
+.content-center h2 {
+  font-size: 1.5rem;
+}
+
+.content-center .button {
+  margin-top: 2rem;
+  padding: 1.25rem 7.25rem;
+}
+
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+#start-section h2 {
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 1rem;
+}
+
+#start-section .button {
+  margin: .5rem;
+  padding: 1.25rem; 7.25rem;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
