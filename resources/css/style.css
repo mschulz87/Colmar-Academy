@@ -61,13 +61,10 @@ header .mobile {
 }
 
 #start-section {
-  position: relative;
-  top: 5.3125rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-  background-color: grey;
   }
 
 .image-container {
@@ -94,24 +91,6 @@ header .mobile {
 .content-center .button {
   margin-top: 2rem;
   padding: 1.25rem 7.25rem;
-}
-
-
-h1 {
-  font-family: "Rubik", sans-serif;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-  font-weight: bold;
-}
-
-#start-section h2 {
-  font-family: "Rubik", sans-serif;
-  margin-bottom: 1rem;
-}
-
-#start-section .button {
-  margin: .5rem;
-  padding: 1.25rem; 7.25rem;
 }
 
 .button {
