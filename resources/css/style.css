@@ -14,6 +14,7 @@ header {
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   top: 0px;
+  left: 0px;
 }
 
 header .content {
